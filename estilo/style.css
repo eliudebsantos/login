@@ -1,0 +1,52 @@
+@charset 'UTF-8';
+
+/*
+    verde
+    lilas
+*/
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+    background-color: blueviolet;
+    
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+section#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px black;
+    overflow: hidden;
+
+    
+}
+
+#imagem{
+    height: 200px;
+    background-image: url(../imagens/peito.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+#formulario{
+    padding: 10px;
+}
