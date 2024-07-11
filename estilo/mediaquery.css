@@ -5,6 +5,7 @@
  MIN 992
 */
 
+/* TABLET */
 @media screen and (min-width: 768px) and (max-width: 992px) {
 
     body{
@@ -19,15 +20,22 @@
         float: left;
         width: 40%;
         height: 100%;
+        background-image: url(../imagens/kelly.jpg);
     }
 
     div#formulario{
         float: right;
         width: 60%;
     }
+
+    #formulario > p{
+        font-size: 1.2em;
+    }
     
 }
 
+
+/* DESCKTOP */
 @media screen and (min-width: 992px) {
 
     body{
@@ -39,15 +47,26 @@
     }
 
     div#imagem{
-        float: left;
+        float: right;
         width: 40%;
         height: 100%;
+        background-image: url(../imagens/kelly\ 2.jpg);
+        background-size: cover;
+        background-position: center center;
     }
 
     div#formulario{
-        float: right;
+        float: left;
         width: 60%;
         height: 100%;
+    }
+
+    #formulario > h1{
+        font-size: 2em;
+    }
+
+    #formulario > p{
+        font-size: 1.5em;
     }
     
 }
