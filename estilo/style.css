@@ -31,13 +31,14 @@ section#login{
     transform: translate(-50%, -50%);
     background-color: white;
     width: 250px;
-    height: 520px;
+    height: 528px;
     border-radius: 20px;
     box-shadow: 0px 0px 20px black;
     overflow: hidden;
-
+    /*
     transition: width 0.3s, height 1s;
     transition-timing-function: ease;
+    */
 }
 
 #imagem{
@@ -64,7 +65,7 @@ section#login{
     padding: 5px;
     font-size: 1em;
 }
-/**
+
 form > div.campo{
    
     background-color: blueviolet;
@@ -118,4 +119,3 @@ form > a.botao:hover{
 a.botao > span{
     font-size: 1em;
 }
-    **/
